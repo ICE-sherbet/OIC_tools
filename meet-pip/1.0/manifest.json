@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "scripts/config.js", "scripts/background.js" ],
+      "persistent": false   
+   },
+   "browser_action": {
+      "default_icon": "images/icepip128.png",
+      "default_popup": "ui/popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/config.js", "scripts/hotKey.js", "scripts/extension.js", "scripts/common.js"],
+      "matches": [ "*://meet.google.com/*" ]
+   } ],
+   "default_locale": "ja",
+   "description": "meetをpipに対応させただけのやつ",
+   "icons": {
+      "128": "images/icepip128.png",
+      "48": "images/icepip48.png",
+      "16": "images/icepip16.png"
+   },
+   "manifest_version": 2,
+   "name": "OIC_tool",
+   "permissions": [ "storage" ],
+   "version": "1.0",
+   "version_name": "1.0",
+   "web_accessible_resources": [ "/styles/*", "/images/*", "/webfonts/*", "/scripts/*" ]
+}

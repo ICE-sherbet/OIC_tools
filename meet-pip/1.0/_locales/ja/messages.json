@@ -1,0 +1,26 @@
+{
+   "AppDesc": {
+      "message": "OICの学生向けツール"
+   },
+   "AppName": {
+      "message": "GoogleMeet™をpip対応化"
+   },
+   "Drive": {
+      "message": "ドライブ機能"
+   },
+   "InMeetingPlugin": {
+      "message": "会議中のプラグインが有効になっています"
+   },
+   "InMeetingPluginDisabled": {
+      "message": "会議中のプラグインが無効になっています"
+   },
+   "StartMeet": {
+      "message": "ミーティングを開始する"
+   },
+   "CommingSoon": {
+      "message": "カミングスーン！！"
+   },
+   "CommingSoon_1": {
+      "message": "アイデアとかイラスト、プログラムかける人募集中!!"
+   }
+}
